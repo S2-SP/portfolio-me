@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { animateScroll as scroller } from 'react-scroll';
+import { scroller } from 'react-scroll';
 import { GoArrowDown } from 'react-icons/go';
 import { GoArrowUp } from 'react-icons/go';
 import '../styles.css';
