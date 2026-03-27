@@ -88,7 +88,7 @@ const Experience = () => {
             href={"./resume.pdf"}
             target="_blank"
             rel="noopener noreferrer"
-            className="resume-link"
+            className="resume-link center"
             >
               Resume
             </a>

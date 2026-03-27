@@ -50,16 +50,10 @@ const About = () => (
         <p className="about-description">
           Outside of work I enjoy exploring new technologies, contributing to open source, and creating side projects that challenge my skills and creativity. I'm always eager to connect with fellow developers and tech enthusiasts, so feel free to reach out!
         </p>
-        <p>
+        <p className="about-description">
           My hobbies include hiking, photography, playing badminton, painting, writing poems, listening to music, travelling. I believe that a well-rounded life outside of coding helps me bring fresh perspectives and creativity to my work.
         </p>
       </div>
-    </div>
-
-    <div className="services-container">
-      {services.map((service, index) => (
-        <ServiceCard key={index} {...service} />
-      ))}
     </div>
 
     <div className="scroll-arrow-wrapper-contact">
