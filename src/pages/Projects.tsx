@@ -2,6 +2,7 @@ import React from 'react';
 import ScrollArrow from './ScrollArrow';
 import "./../styles.css";
 import ProjectCard from '../components/ProjectCardView';
+import { title } from 'process';
 
 const projects = [
   {
@@ -24,6 +25,20 @@ const projects = [
     videoUrl:"./gallery-of-words.mov",
     githubUrl:"https://github.com/S2-SP/poetry",
     link:"https://poetry-o1elmml35-s2-sps-projects.vercel.app/"
+  },
+  {
+    title:"Expense Tracker",
+    description:"Expense tracker is a full-stack web application built with React and ASP.NET Core that allows users to track their expenses and visualize spending patterns through interactive charts and reports.",
+    videoUrl:"./expenseTracker.mov",
+    githubUrl:"https://github.com/S2-SP/ExpenseTracker",
+    link:"https://github.com/S2-SP/ExpenseTracker"
+  },
+  {
+    title:"Viora",
+    description:"Viora is a full stack application built using React and OPEN AI API to summarize and generate transcript when uploading a video. It helps turning long meeting videos into transcripts, summaries, and actionable tasks.",
+    videoUrl:"./viora.mov",
+    githubUrl:"https://github.com/S2-SP/AI-video-transcript-generator-summarizer",
+    link:"https://github.com/S2-SP/AI-video-transcript-generator-summarizer"
   }
 ];
 
