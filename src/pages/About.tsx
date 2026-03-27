@@ -1,31 +1,7 @@
-import React, { JSX } from 'react';
-import Tilt from 'react-parallax-tilt';
+import React from 'react';
 import profile from '../assets/profile.jpg';
 import '../styles.css';
 import ScrollArrow from './ScrollArrow';
-import { SiAffinitydesigner } from 'react-icons/si';
-import { LuCodepen } from 'react-icons/lu';
-import { FaCode } from 'react-icons/fa6';
-
-const services = [
-  { title: 'Web Designer', icon: <SiAffinitydesigner size={24} color="#fff" /> },
-  { title: 'React Developer', icon: <FaCode size={24} color="#fff" /> },
-  { title: 'Full Stack Developer', icon: <LuCodepen size={24} color="#fff" /> },
-];
-
-type ServiceCardProps = {
-  title: string;
-  icon: JSX.Element;
-};
-
-const ServiceCard: React.FC<ServiceCardProps> = ({ title, icon }) => (
-  <Tilt className="card-tilt">
-    <div className="card">
-      <div className="card-icon">{icon}</div>
-      <h3 className="card-title">{title}</h3>
-    </div>
-  </Tilt>
-);
 
 const About = () => (
   <section id="about" className="about-section">

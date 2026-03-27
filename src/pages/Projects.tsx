@@ -2,7 +2,6 @@ import React from 'react';
 import ScrollArrow from './ScrollArrow';
 import "./../styles.css";
 import ProjectCard from '../components/ProjectCardView';
-import { title } from 'process';
 
 const projects = [
   {
