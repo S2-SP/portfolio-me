@@ -607,11 +607,17 @@ body {
   flex: 1;
 }
 
-.project-title {
+.project-title a{
   font-size: 1.2rem;
   font-weight: 600;
   margin: 0 0 8px;
   color: #e9d5ff;
+  text-decoration: none;
+}
+
+.project-title a:hover {
+  color: #c4b5fd;
+  text-decoration: underline;
 }
 
 .project-description {
@@ -835,5 +841,13 @@ body {
 
   .timeline-container {
     padding-left: 1.5rem;
+  }
+
+  .project-link{
+    display: block;
+    margin-top: 12px;
+    font-size: 14px;
+    text-align: left;
+    color: white ;
   }
 }

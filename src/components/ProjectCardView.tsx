@@ -7,9 +7,10 @@ type ProjectCardProps = {
   description: string;
   videoUrl: string;
   githubUrl: string;
+  link?:string;
 };
 
-const ProjectCard: React.FC<ProjectCardProps> = ({ title, description, videoUrl, githubUrl }) => (
+const ProjectCard: React.FC<ProjectCardProps> = ({ title, description, videoUrl, githubUrl, link}) => (
   <div className="project-card">
     <div className="project-video">
       <video 
@@ -25,8 +26,8 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ title, description, videoUrl,
       </video>
     </div>
     <div className='project-body'>
-    <h3 className="project-title">{title}</h3>
-    <p className="project-description">{description}</p>
+      <h3 className="project-title"><a href={link ?? githubUrl} target="_blank" rel="noopener noreferrer">{title}</a></h3>
+      <p className="project-description">{description}</p>
     </div>
     
     <a href={githubUrl} target="_blank" rel="noopener noreferrer" className="github-link">

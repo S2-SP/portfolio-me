@@ -12,6 +12,7 @@ const experiences = [
     iconBg: "#B6CECE",
     date: "Mar 2023 - Present",
     points: [
+      "Implemented and maintained Auth0 authentication integrations (OIDC/SAML) across multiple application improving the login time from 2 -3 minutes to seconds.",
       "Migrated angular application to React improving security, performance with improved and maintainable code",
       "Managed database, routes, and UI/UX design for an intuitive web application.",
       "Led and designed the migration of two WordPress websites to Webflow, ensuring a seamless transition while preserving design integrity, functionality, and SEO, resulting in a 20% performance improvement.",

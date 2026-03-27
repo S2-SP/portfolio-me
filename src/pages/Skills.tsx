@@ -19,17 +19,17 @@ const skill = [
   {
     category: "Backend & API",
     icon: <FaCogs size={24} color="white" />,
-    skills: ["ASP.NET Core", "Web API", "REST", "Azure DevOps"],
+    skills: ["ASP.NET Core","REST APIs", "Azure DevOps", "OpenAI API"],
   },
   {
     category: "Tools & UX",
     icon: <FaTools size={24} color="white" />,
-    skills: ["Figma", "WebFlow", "Canva", "GitHub"],
+    skills: ["Figma", "Canva"],
   },
   {
     category: "Database",
     icon: <FaDatabase size={24} color="white" />,
-    skills: ["SQL Server", "PostgreSQL", "Entity Framework"],
+    skills: ["SQL Server", "PostgreSQL", "Supabase"],
   },
   
   
