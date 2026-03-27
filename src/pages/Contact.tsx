@@ -3,7 +3,7 @@ import { Html, OrbitControls, useGLTF, useProgress } from "@react-three/drei";
 import { motion } from "framer-motion";
 import ScrollArrow from "./ScrollArrow";
 import "./../styles.css";
-import { Suspense, useEffect, useRef, useState } from "react";
+import { Suspense, useEffect, useRef } from "react";
 import * as THREE from 'three';
 import { FaGithub, FaLinkedin } from "react-icons/fa6";
 import Tilt from "react-parallax-tilt";
@@ -82,10 +82,10 @@ const ContactCard = () => (
     <p style={{fontSize:'14px'}}>Reach out via email or connect on socials:</p>
     <div className="contact-icons">
       <AnimatedMailButton/>
-      <a href="https://github.com/S2-SP" target="_blank" className="icon-link">
+      <a href="https://github.com/S2-SP" target="_blank" rel="noopener noreferrer" className="icon-link">
         <FaGithub size={28} />
       </a>
-      <a href="https://www.linkedin.com/in/sefrina-pradhan-34a36b1a6/" target="_blank" className="icon-link">
+      <a href="https://www.linkedin.com/in/sefrina-pradhan-34a36b1a6/" target="_blank" rel="noopener noreferrer" className="icon-link">
         <FaLinkedin size={28} />
       </a>
     </div>
