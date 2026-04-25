@@ -85,7 +85,7 @@ const Experience = () => {
         <h3 className="resume-header">
           <button className="resume-btn">
             <a
-            href={"./resume.pdf"}
+            href={"./sefrina-pradhan-resume.pdf"}
             target="_blank"
             rel="noopener noreferrer"
             className="resume-link center"
